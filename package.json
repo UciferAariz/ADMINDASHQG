@@ -1,0 +1,22 @@
+{
+  "name": "admin-dash-qg",
+  "version": "1.0.0",
+  "description": "Shopify-style admin dashboard SPA built from the attached specification.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node --check app.js && node --check server.js"
+  },
+  "keywords": [
+    "admin-dashboard",
+    "ecommerce",
+    "shopify-style"
+  ],
+  "author": "OpenAI Codex",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "pdf-parse": "^2.4.5"
+  }
+}
